@@ -1,11 +1,12 @@
 module.exports = {
-  title: 'title',
+  title: 'Today I Learned',
   description: 'desc',
   themeConfig: {
     nav: [{ text: 'Github', link: 'https://github.com/thisyujeong' }],
     sidebar: getSidebarArr(),
   },
   base: '/TIL/',
+  smoothScroll: true, // 부드러운 스크롤 사용 여부
 };
 
 function getSidebarArr() {
