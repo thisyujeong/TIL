@@ -13,5 +13,3 @@ meta:
 # vuepress til
 
 today i learned
-
-<Comment />
