@@ -4,7 +4,7 @@
       <router-link
         :class="isActive(getHeaderPath(header.slug)) ? 'active' : ''"
         :to="getHeaderPath(header.slug)"
-        class="rightbar-link"
+        class="sub-sidebar-link"
       >
         {{ header.title }}
       </router-link>
@@ -42,7 +42,7 @@ export default {
 <style lang="stylus" scoped>
 .header
   padding 8px 0 0 1rem
-  a.rightbar-link
+  a.sub-sidebar-link
     font-weight 400
     display inline-block
     color $textColor
@@ -50,8 +50,8 @@ export default {
     text-overflow ellipsis;
     white-space: nowrap;
     width 100%
-  a.rightbar-link.active
-    font-weight: 600 !important
-    color: #3eaf7c !important
-    border-left-color: #3eaf7c !important
+  a.sub-sidebar-link.active
+    font-weight: 600
+    color: $accentColor
+    border-left-color $accentColor
 </style>

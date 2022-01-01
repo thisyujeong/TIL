@@ -111,13 +111,16 @@ function renderExternal(h, to, text) {
   font-size 0.95em
 
 a.sidebar-link
-  font-size 1em
+  font-size 14px
   font-weight 400
   display inline-block
   color $textColor
   border-left 0.25rem solid transparent
-  padding 0.35rem 1rem 0.35rem 1.25rem
+  padding 0.1rem 1rem 0.1rem 1.25rem
   line-height 1.4
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
   width: 100%
   box-sizing: border-box
   &:hover
@@ -136,5 +139,5 @@ a.sidebar-link
       font-weight 500
 @media (min-width: $MQXMobile)
   .sidebar-sub-headers
-    display: none;
+    display none;
 </style>

@@ -4,29 +4,27 @@
 
     <slot name="top" />
 
-    <SidebarLinks
-      :depth="0"
-      :items="items"
-    />
+    <SidebarLinks :depth="0" :items="items" />
     <slot name="bottom" />
   </aside>
 </template>
 
 <script>
-import SidebarLinks from '@theme/components/SidebarLinks.vue'
-import NavLinks from '@theme/components/NavLinks.vue'
+import SidebarLinks from '@theme/components/SidebarLinks.vue';
+import NavLinks from '@theme/components/NavLinks.vue';
 
 export default {
   name: 'Sidebar',
 
   components: { SidebarLinks, NavLinks },
 
-  props: ['items']
-}
+  props: ['items'],
+};
 </script>
 
 <style lang="stylus">
 .sidebar
+  background: $bg-base;
   ul
     padding 0
     margin 0
@@ -45,7 +43,7 @@ export default {
       font-size 1.1em
       padding 0.5rem 0 0.5rem 1.5rem
   & > .sidebar-links
-    padding 1.5rem 0
+    padding 1.2rem 0
     & > li > a.sidebar-link
       font-size 1.1em
       line-height 1.7

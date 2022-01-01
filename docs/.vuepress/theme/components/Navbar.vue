@@ -103,6 +103,7 @@ $navbar-vertical-padding = 0.7rem
 $navbar-horizontal-padding = 1.5rem
 
 .navbar
+  background: $bg-base;
   padding $navbar-vertical-padding $navbar-horizontal-padding
   line-height $navbarHeight - 1.4rem
   a, span, img
@@ -120,7 +121,7 @@ $navbar-horizontal-padding = 1.5rem
   .links
     padding-left 1.5rem
     box-sizing border-box
-    background-color white
+    background-color $bg-base
     white-space nowrap
     font-size 0.9rem
     position absolute
@@ -130,8 +131,15 @@ $navbar-horizontal-padding = 1.5rem
     .search-box
       flex: 0 0 auto
       vertical-align top
+      input
+        border: 0
+        border-bottom: 1px solid #cfd4db
+        border-radius: 0
+        background: url(/TIL/assets/img/search.83621669.svg) 0.6rem 0.5rem no-repeat
+        &.focused
+          border-color: $accentColor
 
-@media (max-width: $MQMobile)
+@media (max-width: $MQXMobile)
   .navbar
     padding-left 4rem
     .can-hide
@@ -139,6 +147,8 @@ $navbar-horizontal-padding = 1.5rem
     .links
       padding-left 1.5rem
       max-width: none !important;
+      .search-box input
+        border-bottom: 0;
     .site-name
       width calc(100vw - 9.4rem)
       overflow hidden

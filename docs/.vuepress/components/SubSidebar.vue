@@ -49,17 +49,17 @@ function findCurrentItem(items, currentPath) {
 
 <style lang="stylus" scoped>
 .sub-sidebar
-  font-size: 13px;
-  background-color: #fff;
-  width: 260px;
-  position: fixed;
-  z-index: 10;
-  margin: 0;
-  top: 3.6rem;
-  right: 0;
-  bottom: 0;
+  font-size: 13px
+  background-color: $bg-base
+  width: 260px
+  position: fixed
+  z-index: 10
+  margin: 0
+  top: 3.6rem
+  right: 0
+  bottom: 0
   box-sizing: border-box;
-  border-left: 1px solid #eaecef;
+  border-left: 1px solid #eaecef
   overflow-y: auto;
   padding 1rem 0 1rem 0
   ul

@@ -26,6 +26,7 @@ export default {
 @require '../styles/wrapper.styl'
 
 .page
+  background: $bg-base;
   padding-bottom 2rem
   padding-right: 260px
   display block
@@ -33,5 +34,5 @@ export default {
   padding 0 2rem
 @media (max-width: 1000px)
   .page
-    padding-right: 0;
+    padding-right 0
 </style>

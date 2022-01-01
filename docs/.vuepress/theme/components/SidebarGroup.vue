@@ -4,9 +4,9 @@
     :class="[
       {
         collapsable,
-        'is-sub-group': depth !== 0
+        'is-sub-group': depth !== 0,
       },
-      `depth-${depth}`
+      `depth-${depth}`,
     ]"
   >
     <RouterLink
@@ -14,31 +14,18 @@
       class="sidebar-heading clickable"
       :class="{
         open,
-        'active': isActive($route, item.path)
+        active: isActive($route, item.path),
       }"
       :to="item.path"
       @click.native="$emit('toggle')"
     >
       <span>{{ item.title }}</span>
-      <span
-        v-if="collapsable"
-        class="arrow"
-        :class="open ? 'down' : 'right'"
-      />
+      <span v-if="collapsable" class="arrow" :class="open ? 'down' : 'right'" />
     </RouterLink>
 
-    <p
-      v-else
-      class="sidebar-heading"
-      :class="{ open }"
-      @click="$emit('toggle')"
-    >
+    <p v-else class="sidebar-heading" :class="{ open }" @click="$emit('toggle')">
       <span>{{ item.title }}</span>
-      <span
-        v-if="collapsable"
-        class="arrow"
-        :class="open ? 'down' : 'right'"
-      />
+      <span v-if="collapsable" class="arrow" :class="open ? 'down' : 'right'" />
     </p>
 
     <DropdownTransition>
@@ -55,30 +42,26 @@
 </template>
 
 <script>
-import { isActive } from '../util'
-import DropdownTransition from '@theme/components/DropdownTransition.vue'
+import { isActive } from '../util';
+import DropdownTransition from '@theme/components/DropdownTransition.vue';
 
 export default {
   name: 'SidebarGroup',
 
   components: {
-    DropdownTransition
+    DropdownTransition,
   },
 
-  props: [
-    'item',
-    'open',
-    'collapsable',
-    'depth'
-  ],
+  props: ['item', 'open', 'collapsable', 'depth'],
 
   // ref: https://vuejs.org/v2/guide/components-edge-cases.html#Circular-References-Between-Components
-  beforeCreate () {
-    this.$options.components.SidebarLinks = require('@theme/components/SidebarLinks.vue').default
+  beforeCreate() {
+    this.$options.components.SidebarLinks =
+      require('@theme/components/SidebarLinks.vue').default;
   },
 
-  methods: { isActive }
-}
+  methods: { isActive },
+};
 </script>
 
 <style lang="stylus">
@@ -112,8 +95,9 @@ export default {
   color $textColor
   transition color .15s ease
   cursor pointer
-  font-size 1.1em
+  font-size 14px;
   font-weight bold
+  text-transform: uppercase
   // text-transform uppercase
   padding 0.35rem 1.5rem 0.35rem 1.25rem
   width 100%
