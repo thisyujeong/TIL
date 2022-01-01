@@ -70,7 +70,6 @@ export default {
       return this.algolia && this.algolia.apiKey && this.algolia.indexName;
     },
   },
-
   mounted() {
     const MOBILE_DESKTOP_BREAKPOINT = 719; // refer to config.styl
     const NAVBAR_VERTICAL_PADDING =
@@ -87,6 +86,11 @@ export default {
     };
     handleLinksWrapWidth();
     window.addEventListener('resize', handleLinksWrapWidth, false);
+  },
+  updated() {
+    window.addEventListener('scroll', (event) => {
+      console.log(document.querySelector('.page').scrollTop);
+    });
   },
 };
 
@@ -106,6 +110,8 @@ $navbar-horizontal-padding = 1.5rem
   background: $bg-base;
   padding $navbar-vertical-padding $navbar-horizontal-padding
   line-height $navbarHeight - 1.4rem
+  &.active
+    opacity 0.8
   a, span, img
     display inline-block
   .logo
@@ -114,7 +120,7 @@ $navbar-horizontal-padding = 1.5rem
     margin-right 0.8rem
     vertical-align top
   .site-name
-    font-size 1.3rem
+    font-size 1.1rem
     font-weight 600
     color $textColor
     position relative

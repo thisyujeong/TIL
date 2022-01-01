@@ -2,7 +2,7 @@ const CONST = require('./const');
 
 module.exports = {
   base: '/TIL/', // base url을 설정합니다.
-  title: '💪 Today I Learned',
+  title: '📂 Today I Learned',
   description: '오늘 배운 것을 기록하는 블로그.',
   head: [
     // 공통 head 태그 설정

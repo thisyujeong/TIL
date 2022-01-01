@@ -45,7 +45,7 @@ Danger Box
 
 ### extension 3. LineNumbers
 
-```js{3}
+```js{3-5}
 // docs/.vuepress/config.js
 module.exports = {
   markdown: {
