@@ -1,15 +1,24 @@
 ---
 meta:
-  - name: description
-    content: 문서의 description
+  - name: thisyujeong-til
+    content: Today I Learned
   - property: og:title
-    content: 문서의 title
+    content: thisyujeong-til
   - property: og:description
-    content: 문서의 description
+    content: 오늘 배운 것, 에러 해결을 기록하는 Today I Leanred 기술 블로그
   - property: og:url
-    content: https://mysite.com/hello.html
+    content: https://thisyujeong.github.io/TIL/
+  # - property: og:image
+  #   content:
+subtoc: false
 ---
 
-# vuepress til
+# Today I Leanred
 
-today i learned
+오늘 배운 것, 에러 해결을 기록하는 Today I Learned 기술 블로그
+
+<hr/>
+
+### TIL 태그 목록 📂
+
+<TagList />

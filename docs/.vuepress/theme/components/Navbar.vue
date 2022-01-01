@@ -138,6 +138,7 @@ $navbar-horizontal-padding = 1.5rem
       display none
     .links
       padding-left 1.5rem
+      max-width: none !important;
     .site-name
       width calc(100vw - 9.4rem)
       overflow hidden
