@@ -3,10 +3,7 @@
 # abort on errors
 set -e
 
-git pull
-git add -A
-git commit -m "$1 $2 $3 --all.sh master"
-git push origin master
+yarn docs:build
 
 # build
 npm run docs:build
