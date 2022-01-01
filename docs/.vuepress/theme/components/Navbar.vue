@@ -145,19 +145,28 @@ $navbar-horizontal-padding = 1.5rem
         &.focused
           border-color: $accentColor
 
+@media (max-width: $MQMobile)
+  .navbar
+    .links
+      padding-left 1.5rem
+      max-width: none !important;
+      .search-box
+        margin-right 1rem
+    .site-name
+      width calc(100vw - 9.4rem)
+      overflow hidden
+      white-space nowrap
+      text-overflow ellipsis
 @media (max-width: $MQXMobile)
   .navbar
     padding-left 4rem
     .can-hide
       display none
     .links
-      padding-left 1.5rem
-      max-width: none !important;
-      .search-box input
-        border-bottom: 0;
-    .site-name
-      width calc(100vw - 9.4rem)
-      overflow hidden
-      white-space nowrap
-      text-overflow ellipsis
+      .search-box
+        margin-right 0
+        input
+          width 0
+          padding 0 .5rem 0 1.5rem
+          border-bottom 0
 </style>

@@ -32,7 +32,7 @@ export default {
   display block
 .utterances-comment
   padding 0 2rem
-@media (max-width: 1000px)
+@media (max-width: $MQMobile)
   .page
     padding-right 0
 </style>

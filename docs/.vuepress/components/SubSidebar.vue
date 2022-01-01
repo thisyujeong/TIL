@@ -64,7 +64,7 @@ function findCurrentItem(items, currentPath) {
   padding 1rem 0 1rem 0
   ul
     list-style-type none
-@media (max-width: $MQXMobile)
+@media (max-width: $MQMobile)
   .sub-sidebar
     display: none
 </style>
