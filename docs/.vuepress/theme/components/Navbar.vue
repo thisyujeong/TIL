@@ -143,7 +143,11 @@ $navbar-horizontal-padding = 1.5rem
         border-radius: 0
         background: url(/TIL/assets/img/search.83621669.svg) 0.6rem 0.5rem no-repeat
         &.focused
-          border-color: $accentColor
+          border-color $accentColor
+      .suggestion
+        padding .2rem .6rem
+        .page-title
+          font-size 13px
 
 @media (max-width: $MQMobile)
   .navbar
@@ -162,11 +166,13 @@ $navbar-horizontal-padding = 1.5rem
     padding-left 4rem
     .can-hide
       display none
-    .links
-      .search-box
-        margin-right 0
-        input
-          width 0
-          padding 0 .5rem 0 1.5rem
-          border-bottom 0
+    .links .search-box
+      margin-right 0
+      input
+        width 0
+        padding 0 .5rem 0 1.5rem
+        border-color transparent
+        &.focused
+          width 10rem
+          border-color $accentColor
 </style>
