@@ -44,20 +44,21 @@ export default {
 <style lang="stylus">
 .tag-list
   h3
-    font-size: 1.2rem
-    margin-bottom: 0.2em
+    font-size 1.2rem
+    margin-bottom 0.2em
+    text-transform capitalize
   ul
     margin: 0.2em 0
     li
-      list-style: none
-      position: relative
+      list-style none
+      position relative
       :before
-        position:absolute
-        left: -1.2em
-        top: 50%
-        transform: translateY(-50%)
+        position absolute
+        left -1.2em
+        top 50%
+        transform translateY(-50%)
         color: #e1e4e8
-        content: '– '
+        content  '– '
       :hover:before
-        color: #c5cdd7
+        color #c5cdd7
 </style>

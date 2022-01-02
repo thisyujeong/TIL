@@ -7,7 +7,7 @@ meta:
     content: noSQL MongoDB 시작 및 사용하기
   - property: og:url
     content: https://thisyujeong.github.io/TIL/database/mongoDB.html
-tags: ['DB', 'mongoDB']
+tags: ['Database', 'mongoDB']
 ---
 
 # noSQL MongoDB 시작 및 사용하기

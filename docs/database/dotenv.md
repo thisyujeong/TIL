@@ -7,7 +7,7 @@ meta:
     content: dotenv로 환경변수 관리하기
   - property: og:url
     content: https://thisyujeong.github.io/TIL/database/dotenv.html
-tags: ['DB', '환경변수']
+tags: ['Database']
 ---
 
 # dotenv로 환경변수 관리하기 (.env)
