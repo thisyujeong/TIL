@@ -1,5 +1,5 @@
 ---
-title: Vuepress Markdown Extension
+title: Vuepress 마크다운 익스텐션
 meta:
   - name: description
     content: Vuepress 마크다운 익스텐션을 정리한 글입니다.
@@ -9,10 +9,10 @@ meta:
     content: Vuepress 마크다운 익스텐션을 정리한 글입니다.
   - property: og:url
     content: https://thisyujeong.github.io/TIL/vuepress/markdown.html
-tags: ['vuepress', 'markdown']
+tags: ['vuepress']
 ---
 
-# Vuepress Markdown Extension
+# Vuepress 마크다운 익스텐션
 
 ## Custom Container
 

@@ -12,12 +12,27 @@ module.exports = {
   themeConfig: {
     smoothScroll: true,
     // logo: '/logo.png', // title옆에 나타날 로고 이미지 // .vuepress/public
-    sidebarDepth: 2,
+    sidebarDepth: 3,
     sidebar: [
+      {
+        title: 'git',
+        collapseble: true,
+        children: CONST.Git,
+      },
+      {
+        title: 'react',
+        collapseble: true,
+        children: CONST.React,
+      },
       {
         title: 'Node.js',
         collapseble: true,
         children: CONST.Node,
+      },
+      {
+        title: 'database',
+        collapseble: true,
+        children: CONST.Database,
       },
       {
         title: 'vuepress',
