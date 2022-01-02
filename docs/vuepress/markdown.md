@@ -2,13 +2,13 @@
 title: Vuepress Markdown Extension
 meta:
   - name: description
-    content: 문서의 description
+    content: Vuepress 마크다운 익스텐션을 정리한 글입니다.
   - property: og:title
-    content: 문서의 title
+    content: Vuepress Markdown Extension
   - property: og:description
-    content: 문서의 description
+    content: Vuepress 마크다운 익스텐션을 정리한 글입니다.
   - property: og:url
-    content: https://mysite.com/hello.html
+    content: https://thisyujeong.github.io/TIL/vuepress/markdown.html
 tags: ['vuepress', 'markdown']
 ---
 

@@ -42,10 +42,10 @@ module.exports = {
     lineNumbers: true,
   },
   plugins: [
+    ['sitemap', { hostname: 'https://thisyujeong.github.io/TIL/' }],
     ['@vuepress/back-to-top'],
     ['@vuepress/last-updated'],
     ['vuepress-plugin-code-copy'],
-    ['sitemap', { hostname: 'https://thisyujeong.github.io/TIL/' }],
   ],
   smoothScroll: true,
 };
