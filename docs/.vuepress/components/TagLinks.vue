@@ -24,8 +24,9 @@ a
   font-weight 500
   text-transform capitalize
 .tag-list
-  padding 10px 0
+  max-width 740px
+  padding .5rem 1rem
   border-top 1px solid $borderColor
   border-bottom 1px solid $borderColor
-  margin-top 24px
+  margin 24px auto
 </style>
