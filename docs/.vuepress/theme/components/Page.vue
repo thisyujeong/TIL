@@ -2,6 +2,7 @@
   <main class="page">
     <slot name="top" />
     <Content class="theme-default-content" />
+    <TagLinks v-if="$page.frontmatter.tags" class="tag-links" />
     <Comment class="utterances-comment" />
     <PageEdit />
     <PageNav v-bind="{ sidebarItems }" />
@@ -30,6 +31,9 @@ export default {
   padding-bottom 2rem
   padding-right: 260px
   display block
+.tag-links
+  margin 0 2rem
+  padding 0.5rem 1rem
 .utterances-comment
   padding 0 2rem
 @media (max-width: $MQMobile)

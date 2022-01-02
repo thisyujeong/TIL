@@ -1,5 +1,5 @@
 ---
-title: Vuepress Markdown
+title: Vuepress Markdown Extension
 meta:
   - name: description
     content: 문서의 description
@@ -12,38 +12,36 @@ meta:
 tags: ['vuepress', 'markdown']
 ---
 
-# Vuepress Markdown
+# Vuepress Markdown Extension
 
-## Markdown Extension Guide
-
-### extension 1. Custom Container
+## Custom Container
 
 > 공식문서 [Custom Containers](https://vuepress.vuejs.org/guide/markdown.html#line-highlighting-in-code-blocks)
 
-#### tip
+### tip
 
 :::tip
 Tip Box
 :::
 
-#### warning
+### warning
 
 :::warning
 Warning Box
 :::
 
-#### danger
+### danger
 
 :::danger
 Danger Box
 :::
 
-### extension 2.Line Highlighting in Code Blocks
+## Line Highlighting in Code Blocks
 
 > _```js{3}_ 형식  
 > 공식문서 [Line Highlighting in Code Blocks](https://vuepress.vuejs.org/guide/markdown.html#line-highlighting-in-code-blocks)
 
-### extension 3. LineNumbers
+## LineNumbers
 
 ```js{3-5}
 // docs/.vuepress/config.js
@@ -54,10 +52,8 @@ module.exports = {
 };
 ```
 
-### extension 4. Table of Contents
+## Table of Contents
 
 ```md
 [[toc]]
 ```
-
-<TagLinks />
