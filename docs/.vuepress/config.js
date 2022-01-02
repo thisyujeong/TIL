@@ -43,6 +43,7 @@ module.exports = {
   },
   plugins: [
     ['sitemap', { hostname: 'https://thisyujeong.github.io/TIL/' }],
+    ['@vuepress/google-analytics', { ga: 'G-BM25BRS1ZP' }],
     ['@vuepress/back-to-top'],
     ['@vuepress/last-updated'],
     ['vuepress-plugin-code-copy'],
