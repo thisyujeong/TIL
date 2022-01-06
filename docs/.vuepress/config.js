@@ -4,6 +4,7 @@ module.exports = {
   base: '/TIL/', // base url을 설정합니다.
   title: '📂 thisyujeong-til',
   description: '오늘 배운 것을 기록하는 블로그.',
+  'google-site-verification': 'SCvQ-PxzGQ6MmSn0JCf3qzJXODbufBJmOg0MUpJ7mT0',
   head: [
     // 공통 head 태그 설정
     ['link', { rel: 'icon', href: '/logo.png' }],
