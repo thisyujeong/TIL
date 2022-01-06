@@ -14,4 +14,8 @@ exports.Vuepress = ['vuepress/markdown'];
 exports.Git = ['git/gitignore_clear-cached'];
 exports.React = ['react/http-proxy-middleware'];
 exports.Database = ['database/dotenv', 'database/mongoDB'];
-exports.Typescript = ['typescript/typescript', 'typescript/basic-types'];
+exports.Typescript = [
+  'typescript/typescript',
+  'typescript/basic-types',
+  'typescript/type-interface',
+];
