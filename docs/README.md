@@ -4,7 +4,7 @@ meta:
   - name: description
     content: 오늘 배운 것, 에러 해결을 기록하는 기술 블로그
   - name: google-site-verification
-    content: SCvQ-PxzGQ6MmSn0JCf3qzJXODbufBJmOg0MUpJ7mT0
+    content: CmzbHfw6FQITzUtPrwKhqzF1nUBt3NewwhyaoKF8alI
   - property: og:title
     content: thisyujeong-til
   - property: og:description
