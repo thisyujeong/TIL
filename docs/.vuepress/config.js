@@ -41,6 +41,11 @@ module.exports = {
         children: CONST.Vuepress,
       },
       {
+        title: 'javascript',
+        collapseble: true,
+        children: CONST.Javascript,
+      },
+      {
         title: 'typescript',
         collapseble: true,
         children: CONST.Typescript,
