@@ -77,6 +77,8 @@ console.log('Hello TS!');
 
 타입스크립트 툴을 이용해 컴파일해보자.
 
+### 단일 파일 실행 및 실시간 컴파일
+
 ```bash
 $ tsc main.ts
 ```
@@ -98,6 +100,24 @@ $ tsc main.ts -w
 ```bash
 $ tsc -h
 ```
+
+### 다수의 파일 실행 및 실시간 컴파일
+
+다수의 파일을 실행후, 실시간 컴파일
+
+```bash
+tsc --init
+tsc -w
+```
+
+`tsc --init`으로 타입스크립트 설정 파일 (tsconfig.json)을 프로젝트 디렉토리에 생성 후,
+`tsc -w` 커맨드로 다수의 타입스크립트 파일을 동시에 실시간 컴파일 한다.
+
+-
+
+tsconfig.json 에서 타입스크립트 옵션을 설정할 수 있다.
+
+> tsconfig.json 옵션 문서 [바로가기](https://www.typescriptlang.org/tsconfig/)
 
 ## ts-node 로 타입스크립트 실행하기
 
