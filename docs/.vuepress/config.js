@@ -50,6 +50,18 @@ module.exports = {
         collapseble: true,
         children: CONST.Typescript,
       },
+      {
+        title: 'algorithm',
+        collapseble: true,
+        children: [
+          { title: 'baekjoon', collapsable: true, children: CONST.Algorithm.baekjoon },
+          /* {
+            title: 'programmers',
+            collapsable: true,
+            children: CONST.Algorithm.programmers,
+          }, */
+        ],
+      },
     ],
     nav: [
       // 페이지 우측 상단에 보여질 nav들

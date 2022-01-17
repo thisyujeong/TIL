@@ -20,3 +20,17 @@ exports.Typescript = [
   'typescript/basic-types',
   'typescript/type-interface',
 ];
+exports.Algorithm = {
+  baekjoon: [
+    'algorithm/baekjoon/10171',
+    'algorithm/baekjoon/10172',
+    'algorithm/baekjoon/1000',
+    'algorithm/baekjoon/1001',
+    'algorithm/baekjoon/10998',
+    'algorithm/baekjoon/1008',
+    'algorithm/baekjoon/10869',
+    'algorithm/baekjoon/10430',
+    'algorithm/baekjoon/2588',
+  ],
+  programmers: [''],
+};
