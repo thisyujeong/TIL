@@ -71,6 +71,9 @@ exports.Algorithm = {
     'algorithm/baekjoon/1316',
     'algorithm/baekjoon/1712',
     'algorithm/baekjoon/2292',
+    'algorithm/baekjoon/1193',
+    'algorithm/baekjoon/2869',
+    'algorithm/baekjoon/10250',
   ],
   programmers: [''],
 };
