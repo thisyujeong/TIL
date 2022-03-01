@@ -33,7 +33,6 @@ export default {
   display block
 .tag-links
   margin 0 2rem
-  padding 0.5rem 1rem
 .utterances-comment
   padding 0 2rem
 @media (max-width: $MQMobile)

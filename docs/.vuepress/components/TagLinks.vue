@@ -25,8 +25,13 @@ a
   text-transform capitalize
 .tag-list
   max-width 740px
-  padding .5rem 1rem
+  padding 1em 2.5em
   border-top 1px solid $borderColor
   border-bottom 1px solid $borderColor
   margin 24px auto
+@media (max-width: $MQMobile)
+  .tag-list
+    padding 1em 1.5em
+    a
+      font-size: 14px
 </style>

@@ -41,7 +41,7 @@ export default {
 
 <style lang="stylus" scoped>
 .header
-  padding 8px 0 0 1rem
+  padding 8px 8px 0 1rem
   a.sub-sidebar-link
     font-weight 400
     display inline-block

@@ -27,9 +27,9 @@
       border-radius 0
     .code-copy 
       position absolute;
-      right -41px
+      right -32px
       top 2px
-      width 42px
+      width 32px
       height 32px
       svg 
         width 16px
@@ -37,10 +37,7 @@
         bottom 0 !important
         right 0
         padding 8px
-        margin-left 10px
-        background #fff
         border-radius 4px
-        border 1px solid #d2d6db
         path:not([fill='none'])
           fill #a5afb9
         &:hover
@@ -68,7 +65,6 @@ div[class*="language-"]
       background-color rgba(0, 0, 0, 66%)
   pre, pre[class*="language-"]
     background transparent
-    position relative
     z-index 1
   &::before
     position absolute
@@ -94,6 +90,7 @@ div[class*="language-"]
           height 100%
           background-color rgba(0, 0, 0, 66%)
     pre
+      overflow-x auto
       padding-left $lineNumbersWrapperWidth - 0.5rem;
       vertical-align middle
     .line-numbers-wrapper
