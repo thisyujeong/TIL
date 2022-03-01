@@ -3,7 +3,9 @@
   <div class="tag-list">
     <span v-for="tag in Object.keys(tags)">
       <h3 :id="tag">
-        <router-link class="header-anchor" aria-hidden="true">#</router-link>
+        <router-link :to="{ path: `/#${tag}` }" class="header-anchor" aria-hidden="true"
+          >#</router-link
+        >
         {{ tag }}
       </h3>
       <ul>
