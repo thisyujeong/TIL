@@ -9,6 +9,8 @@ exports.Node = [
   'node/node-passport',
   'node/node-express_react-concurrently',
   'node/error-address_already_in_use',
+  'node/homebrew-nvm-install',
+  'node/node-nvm-version',
 ];
 exports.Vuepress = ['vuepress/markdown'];
 exports.Git = ['git/gitignore_clear-cached'];
