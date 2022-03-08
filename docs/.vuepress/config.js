@@ -10,8 +10,7 @@ module.exports = {
     ['link', { rel: 'icon', href: '/logo.png' }],
   ],
   locales: {
-    '/TIL': { lang: 'ko-KR' },
-    title: 'thisyujeong-til',
+    '/': { lang: 'ko-KR' },
   },
   theme: '@vuepress/theme-default',
   themeConfig: {
