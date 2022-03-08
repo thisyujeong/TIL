@@ -76,6 +76,9 @@ module.exports = {
       // },
     ],
   },
+  locales: {
+    '/': {lang: 'ko-KR'}
+  },
   markdown: {
     lineNumbers: true,
   },
