@@ -11,6 +11,7 @@ module.exports = {
   ],
   locales: {
     '/': { lang: 'ko-KR' },
+    title: 'thisyujeong-til',
   },
   theme: '@vuepress/theme-default',
   themeConfig: {
@@ -83,7 +84,15 @@ module.exports = {
     lineNumbers: true,
   },
   plugins: [
-    ['sitemap', { hostname: 'https://thisyujeong.github.io/TIL/' }],
+    [
+      'sitemap',
+      {
+        hostname: 'https://thisyujeong.github.io/TIL/',
+        dateFormatter: (val) => {
+          return new Date().toISOString();
+        },
+      },
+    ],
     ['@vuepress/google-analytics', { ga: 'UA-216151251-1' }],
     ['@vuepress/back-to-top'],
     ['@vuepress/last-updated'],
