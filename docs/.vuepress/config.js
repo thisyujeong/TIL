@@ -9,6 +9,9 @@ module.exports = {
     // 공통 head 태그 설정
     ['link', { rel: 'icon', href: '/logo.png' }],
   ],
+  locales: {
+    '/': { lang: 'ko-KR' },
+  },
   theme: '@vuepress/theme-default',
   themeConfig: {
     smoothScroll: true,
@@ -75,9 +78,6 @@ module.exports = {
       //   ],
       // },
     ],
-  },
-  locales: {
-    '/': {lang: 'ko-KR'}
   },
   markdown: {
     lineNumbers: true,
