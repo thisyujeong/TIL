@@ -21,6 +21,7 @@ exports.Typescript = [
   'typescript/typescript',
   'typescript/basic-types',
   'typescript/type-interface',
+  'typescript/generic-auto-close',
 ];
 exports.Algorithm = {
   baekjoon: [
