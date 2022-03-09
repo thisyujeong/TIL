@@ -78,7 +78,7 @@ console.log(cat);
 
 공통적으로 사용하는 `makeSound` 함수를 prototype으로 분리했다.
 
-```jsx
+```js
 function Animal(animal) {
   this.animal = animal;
 }
@@ -93,7 +93,7 @@ console.log(cat);
 
 출력해보면 makeSound가 아닌 프로토타입이 함께 출력된 것을 볼 수 있다.
 
-```jsx
+```js
 ▾ Animal
 	  animal: 'dog'
 	▸[[Prototype]]: Object
@@ -103,7 +103,7 @@ console.log(cat);
 
 이번에는 동물이 아닌 사람의 사람의 소리를 만드는 함수 만들었다.
 
-```jsx
+```js
 function Person(person} {
 	this.person = pserson;
 }
@@ -115,7 +115,7 @@ minsoo.makeSound('minsoo');
 
 정말 간단하다! `Animal` 의 프로토타입을 상속해 `makeSound` 를 사용할 수 있게 되었다. 이처럼 상속과 재사용을 프로토타입을 통해 구현할 수 있다. 출력 결과는 이와 같다.
 
-```jsx
+```js
 ▾ Person
 	  animal: 'minsoo'
 	▸[[Prototype]]: Object
