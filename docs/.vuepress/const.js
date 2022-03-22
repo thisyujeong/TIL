@@ -22,6 +22,7 @@ exports.Typescript = [
   'typescript/basic-types',
   'typescript/type-interface',
   'typescript/generic-auto-close',
+  'typescript/compiler-tsconfig',
 ];
 exports.Algorithm = {
   baekjoon: [
