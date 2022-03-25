@@ -11,6 +11,7 @@ exports.Node = [
   'node/error-address_already_in_use',
   'node/homebrew-nvm-install',
   'node/node-nvm-version',
+  'node/node-heroku-deploy',
 ];
 exports.Vuepress = ['vuepress/markdown'];
 exports.Git = ['git/gitignore_clear-cached'];
