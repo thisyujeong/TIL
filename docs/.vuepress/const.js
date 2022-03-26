@@ -110,5 +110,5 @@ exports.Algorithm = {
     'algorithm/baekjoon/18870',
     'algorithm/baekjoon/15649',
   ],
-  programmers: [''],
+  programmers: ['algorithm/programmers/64061'],
 };

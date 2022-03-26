@@ -58,11 +58,11 @@ module.exports = {
         collapseble: true,
         children: [
           { title: 'baekjoon', collapsable: true, children: CONST.Algorithm.baekjoon },
-          /* {
+          {
             title: 'programmers',
             collapsable: true,
             children: CONST.Algorithm.programmers,
-          }, */
+          },
         ],
       },
     ],
