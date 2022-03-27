@@ -115,5 +115,7 @@ exports.Algorithm = {
     'algorithm/programmers/81301',
     'algorithm/programmers/42888',
     'algorithm/programmers/68644',
+    'algorithm/programmers/12982',
+    'algorithm/programmers/42889',
   ],
 };
