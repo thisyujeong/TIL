@@ -65,6 +65,11 @@ module.exports = {
           },
         ],
       },
+      {
+        title: 'etc',
+        collapseble: true,
+        children: CONST.Etc,
+      },
     ],
     nav: [
       // 페이지 우측 상단에 보여질 nav들

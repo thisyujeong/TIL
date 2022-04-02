@@ -128,3 +128,4 @@ exports.Algorithm = {
     'algorithm/programmers/42889',
   ],
 };
+exports.Etc = ['etc/heroku-custom-domain'];
