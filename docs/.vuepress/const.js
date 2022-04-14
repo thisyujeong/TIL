@@ -15,7 +15,8 @@ exports.Node = [
 ];
 exports.Vuepress = ['vuepress/markdown'];
 exports.Git = ['git/gitignore_clear-cached'];
-exports.React = ['react/http-proxy-middleware'];
+exports.HtmlCss = ['html-css/input-autofill'];
+exports.React = ['react/http-proxy-middleware', 'react/solving-you-are-running'];
 exports.Database = ['database/dotenv', 'database/mongoDB'];
 exports.Javascript = ['javascript/prototype'];
 exports.Typescript = [

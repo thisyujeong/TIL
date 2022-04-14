@@ -24,6 +24,11 @@ module.exports = {
         children: CONST.Git,
       },
       {
+        title: 'html/css',
+        collapseble: true,
+        children: CONST.HtmlCss,
+      },
+      {
         title: 'react',
         collapseble: true,
         children: CONST.React,
