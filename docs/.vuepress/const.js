@@ -17,6 +17,7 @@ exports.Vuepress = ['vuepress/markdown'];
 exports.Git = ['git/gitignore_clear-cached'];
 exports.HtmlCss = ['html-css/input-autofill'];
 exports.React = ['react/http-proxy-middleware', 'react/solving-you-are-running'];
+exports.Vue = ['vue/vue-started', 'vue/vue-sass'];
 exports.Database = ['database/dotenv', 'database/mongoDB'];
 exports.Javascript = ['javascript/prototype'];
 exports.Typescript = [

@@ -34,6 +34,11 @@ module.exports = {
         children: CONST.React,
       },
       {
+        title: 'Vue',
+        collapseble: true,
+        children: CONST.Vue,
+      },
+      {
         title: 'Node.js',
         collapseble: true,
         children: CONST.Node,
