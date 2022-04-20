@@ -7,7 +7,7 @@ meta:
     content: Address already in use 에러 해결
   - property: og:url
     content: https://thisyujeong.github.io/TIL/node/error-address_already_in_use.html
-tags: ['Node.js', 'Express']
+tags: ['Node.js']
 ---
 
 # Address already in use 에러 해결
@@ -39,3 +39,12 @@ sudo kill -9 (PID)
 ```
 
 이제 정상적으로 5000번 포트를 사용할 수 있다.
+
+## 내용 추가 22.04.20
+
+작업중 해당 에러가 발생해 이번에도 역시 위와 같은 방법으로 해결을 시도했다.  
+`sudo lsof -i:port` 명령어를 입력해도 사용중인 서버가 없다(목록이 뜨지 않음). 구글링 결과 이 [페이지](https://developer.apple.com/forums/thread/682332)를 발견했는데, 해당 에러는 MacOS Monterey 버전에서 발생하는 문제라고 한다. 해결 방법은 간단했다.
+
+Mac 환경설정 → 공유 → **AirPlay** 수신모드를 체크해제한다.
+
+node 를 실행해봤다. 에러가 말끔히 없어진 것을 확인했다.
