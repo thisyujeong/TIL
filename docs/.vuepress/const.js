@@ -18,6 +18,7 @@ exports.Git = ['git/gitignore_clear-cached'];
 exports.HtmlCss = ['html-css/input-autofill'];
 exports.React = ['react/http-proxy-middleware', 'react/solving-you-are-running'];
 exports.Vue = ['vue/vue-started', 'vue/vue-sass', 'vue/vue-fragment-err'];
+exports.Next = ['next/next-started'];
 exports.Database = ['database/dotenv', 'database/mongoDB'];
 exports.Javascript = ['javascript/prototype'];
 exports.Typescript = [

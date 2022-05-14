@@ -39,6 +39,11 @@ module.exports = {
         children: CONST.Vue,
       },
       {
+        title: 'next.js',
+        collapseble: true,
+        children: CONST.Next,
+      },
+      {
         title: 'Node.js',
         collapseble: true,
         children: CONST.Node,
