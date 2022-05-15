@@ -60,14 +60,14 @@ pages 폴더 내 파일명이 라우팅의 경로가 된다.
 
 예외의 경우로 파일명이 index.js 라면 `도메인/` 경로로 라우팅 된다.
 
-> /pages/index.js → domain.com
+> /pages/index.js → domain.com  
 > /pages/home.js → domain.com/home
 
 ### 중첩 경로 라우팅
 
 중첩 경로의 경우 폴더 새 폴더를 만들어서 라우팅한다.
 
-> /pages/news/index.js → domain.com/news
+> /pages/news/index.js → domain.com/news  
 > /pages/news/item → domain.com/home/item
 
 ### 동적 라우팅
@@ -76,9 +76,9 @@ pages 폴더 내 파일명이 라우팅의 경로가 된다.
 
 대괄호 안에는 식별자를 명시한다. 식별자명은 원하는 이름으로 직접 설정한다.
 
-> /pages/news/[item].js
-> → domain/news/somthing-important
-> → domain/news/somthing-else
+> /pages/news/[item].js  
+> → domain/news/somthing-important  
+> → domain/news/somthing-else  
 > → ...
 
 useRouter 훅을 통해 쿼리 접근이 가능하다.
